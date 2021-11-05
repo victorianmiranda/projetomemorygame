@@ -7,10 +7,10 @@
 body {
     height: 100vh;
     display: flex;
-    background-color: pink;
+    background-color: rgba(235, 92, 163, 0.603);
 }
 
-.board {
+.memory-game {
     height: 640px;
     width: 640px;
     margin: auto;
@@ -22,13 +22,13 @@ body {
 .card {
     height: calc(33.333% - 10px);
     width: calc(25% - 10px);
-    margin: 1px;
+    margin: 5px;
     position: relative;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
     cursor: pointer;
     transform: scale(1);
     transform-style: preserve-3d;
-    /*transition: transform .9s;*/
+    
 }
 
 .card:active {
@@ -43,7 +43,7 @@ body {
     padding: 20px;
     position: absolute;
     border-radius: 5px;
-    background: rgb(38, 135, 214);
+    background: rgba(40, 167, 226, 0.603);
     backface-visibility: hidden;
 }
 
